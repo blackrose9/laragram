@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/dev" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6784cd0-62e5-4068-a2be-eecbd685b2a3" name="Default Changelist" comment="" />
+    <list default="true" id="d6784cd0-62e5-4068-a2be-eecbd685b2a3" name="Default Changelist" comment="Add CSS to style the pages was missing from composer update">
+      <change afterPath="$PROJECT_DIR$/public/laragram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +40,14 @@
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -125,6 +163,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1iBVQld07yZjNy7EZQqhzFOO0mW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -157,12 +196,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601380957696</updated>
-      <workItem from="1601380958723" duration="3410000" />
+      <workItem from="1601380958723" duration="5685000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add CSS to style the pages was missing from composer update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CSS to style the pages was missing from composer update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="398" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601382805359">
@@ -173,21 +239,29 @@
       <screen x="74" y="0" width="1462" height="864" />
     </state>
     <state x="549" y="234" key="#com.intellij.fileTypes.FileTypeChooser/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601383604511" />
-    <state width="1419" height="224" key="GridCell.Tab.0.bottom" timestamp="1601380996314">
+    <state x="582" y="345" key="ComposerInitDialogKey" timestamp="1601386140418">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="1419" height="224" key="GridCell.Tab.0.bottom/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601380996314" />
-    <state width="1419" height="224" key="GridCell.Tab.0.center" timestamp="1601380996313">
+    <state x="582" y="345" key="ComposerInitDialogKey/74.0.1462.864@74.0.1462.864" timestamp="1601386140418" />
+    <state width="1419" height="224" key="GridCell.Tab.0.bottom" timestamp="1601387942945">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="1419" height="224" key="GridCell.Tab.0.center/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601380996313" />
-    <state width="1419" height="224" key="GridCell.Tab.0.left" timestamp="1601380996313">
+    <state width="1419" height="224" key="GridCell.Tab.0.bottom/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601387942945" />
+    <state width="1419" height="224" key="GridCell.Tab.0.center" timestamp="1601387942945">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="1419" height="224" key="GridCell.Tab.0.left/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601380996313" />
-    <state width="1419" height="224" key="GridCell.Tab.0.right" timestamp="1601380996314">
+    <state width="1419" height="224" key="GridCell.Tab.0.center/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601387942945" />
+    <state width="1419" height="224" key="GridCell.Tab.0.left" timestamp="1601387942944">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="1419" height="224" key="GridCell.Tab.0.right/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601380996314" />
+    <state width="1419" height="224" key="GridCell.Tab.0.left/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601387942944" />
+    <state width="1419" height="224" key="GridCell.Tab.0.right" timestamp="1601387942945">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="224" key="GridCell.Tab.0.right/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601387942945" />
+    <state x="398" y="165" key="Vcs.Push.Dialog.v2" timestamp="1601386422583">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="398" y="165" key="Vcs.Push.Dialog.v2/74.0.1462.864@74.0.1462.864" timestamp="1601386422583" />
   </component>
 </project>
