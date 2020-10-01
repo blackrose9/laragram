@@ -6,18 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6784cd0-62e5-4068-a2be-eecbd685b2a3" name="Default Changelist" comment="Add laragram logo for page and style it">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +183,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601380957696</updated>
       <workItem from="1601380958723" duration="13231000" />
-      <workItem from="1601464551891" duration="12199000" />
+      <workItem from="1601464551891" duration="14923000" />
     </task>
     <task id="LOCAL-00001" summary="Add CSS to style the pages was missing from composer update">
       <created>1601388428140</created>
@@ -209,7 +199,28 @@
       <option name="project" value="LOCAL" />
       <updated>1601389131043</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Style home.blade.php to look like an Instagram user page">
+      <created>1601548768223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601548768223</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add 'username' to the registration form and include it in the database, controllers and User class">
+      <created>1601549046855</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601549046855</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add ProfilesController.php which passes the username to the view through web.php&#10;Display username on nav bar">
+      <created>1601549155719</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601549155719</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +258,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add CSS to style the pages was missing from composer update" />
     <MESSAGE value="Add laragram logo for page and style it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add laragram logo for page and style it" />
+    <MESSAGE value="Style home.blade.php to look like an Instagram user page" />
+    <MESSAGE value="Add 'username' to the registration form and include it in the database, controllers and User class" />
+    <MESSAGE value="Add ProfilesController.php which passes the username to the view through web.php&#10;Display username on nav bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ProfilesController.php which passes the username to the view through web.php&#10;Display username on nav bar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="398" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601382805359">
@@ -294,9 +308,10 @@
       <screen x="74" y="0" width="1462" height="864" />
     </state>
     <state x="314" y="77" key="SettingsEditor/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601548511041" />
-    <state x="398" y="165" key="Vcs.Push.Dialog.v2" timestamp="1601386422583">
+    <state x="398" y="165" key="Vcs.Push.Dialog.v2" timestamp="1601549326401">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
+    <state x="398" y="165" key="Vcs.Push.Dialog.v2/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601549326401" />
     <state x="398" y="165" key="Vcs.Push.Dialog.v2/74.0.1462.864@74.0.1462.864" timestamp="1601386422583" />
     <state x="468" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1601459763999">
       <screen x="74" y="0" width="1462" height="864" />
