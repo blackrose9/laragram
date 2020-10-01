@@ -18,8 +18,19 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
-Route::post('/p', [App\Http\Controllers\PostsController::class, 'store']);
+//Create
 Route::get('/p/create', [App\Http\Controllers\PostsController::class, 'create']);
 
+Route::post('/p', [App\Http\Controllers\PostsController::class, 'store']);
+
+//Read
+Route::get('/p/{post}', [App\Http\Controllers\PostsController::class, 'show']);
 Route::get('/profile/{user}', [App\Http\Controllers\ProfilesController::class, 'index'])->name('profile.show');
+
+//Update
+//Delete
+
+
+
+
+

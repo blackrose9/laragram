@@ -7,13 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d6784cd0-62e5-4068-a2be-eecbd685b2a3" name="Default Changelist" comment="Add laragram logo for page and style it">
       <change afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laragram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laragram.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -196,7 +191,7 @@
       <updated>1601380957696</updated>
       <workItem from="1601380958723" duration="13231000" />
       <workItem from="1601464551891" duration="24139000" />
-      <workItem from="1601564352091" duration="6892000" />
+      <workItem from="1601564352091" duration="7365000" />
     </task>
     <task id="LOCAL-00001" summary="Add CSS to style the pages was missing from composer update">
       <created>1601388428140</created>
@@ -268,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601564069225</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add Intervention Image Library to help square our uploaded images">
+      <created>1601590371298</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601590371298</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +317,8 @@
     <MESSAGE value="Add create.blade.php, index.blade.php and PostsController.php" />
     <MESSAGE value="Add new route to add a post through the webpage&#10;Reroute the ProfilesController.php to point to index rather than home" />
     <MESSAGE value="Add new route to add a post through the webpage&#10;Reroute the ProfilesController.php to point to index rather than home&#10;Remove guard from the Post.php model because we are defining the guards in the controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new route to add a post through the webpage&#10;Reroute the ProfilesController.php to point to index rather than home&#10;Remove guard from the Post.php model because we are defining the guards in the controller" />
+    <MESSAGE value="Add Intervention Image Library to help square our uploaded images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Intervention Image Library to help square our uploaded images" />
   </component>
   <component name="WindowStateProjectService">
     <state x="398" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601382805359">
