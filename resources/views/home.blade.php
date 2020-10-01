@@ -13,9 +13,9 @@
                 <div class="pr-5"><strong>171</strong> followers</div>
                 <div class="pr-5"><strong>135</strong> following</div>
             </div>
-            <div class="pt-4 font-weight-bold">blackrose9</div>
-            <div>*#HerHighness</div>
-            <div><a href="blackrose9.github.io">https://blackrose9.github.io</a> </div>
+            <div class="pt-4 font-weight-bold">{{$user->profile->title}}</div>
+            <div>{{$user->profile->description}}</div>
+            <div><a href="blackrose9.github.io">{{$user->profile->url ?? 'url not available'}}</a> </div>
         </div>
     </div>
     <div class="row pt-5">

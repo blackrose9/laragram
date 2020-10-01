@@ -7,7 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d6784cd0-62e5-4068-a2be-eecbd685b2a3" name="Default Changelist" comment="Add laragram logo for page and style it">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +184,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601380957696</updated>
       <workItem from="1601380958723" duration="13231000" />
-      <workItem from="1601464551891" duration="14923000" />
+      <workItem from="1601464551891" duration="16116000" />
     </task>
     <task id="LOCAL-00001" summary="Add CSS to style the pages was missing from composer update">
       <created>1601388428140</created>
@@ -220,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601549155719</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Profile model and migration files.&#10;Connect a profile and a user with a 1:1 relationship.">
+      <created>1601552594845</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601552594845</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +269,8 @@
     <MESSAGE value="Style home.blade.php to look like an Instagram user page" />
     <MESSAGE value="Add 'username' to the registration form and include it in the database, controllers and User class" />
     <MESSAGE value="Add ProfilesController.php which passes the username to the view through web.php&#10;Display username on nav bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ProfilesController.php which passes the username to the view through web.php&#10;Display username on nav bar" />
+    <MESSAGE value="Add Profile model and migration files.&#10;Connect a profile and a user with a 1:1 relationship." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Profile model and migration files.&#10;Connect a profile and a user with a 1:1 relationship." />
   </component>
   <component name="WindowStateProjectService">
     <state x="398" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601382805359">
