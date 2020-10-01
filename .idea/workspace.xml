@@ -6,9 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6784cd0-62e5-4068-a2be-eecbd685b2a3" name="Default Changelist" comment="Add laragram logo for page and style it">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +154,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../laragram" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/posts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -163,9 +167,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\resources\views\posts" />
       <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\svg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\resources\views\profiles" />
+      <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\resources\views\posts" />
       <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\public\svg" />
     </key>
   </component>
@@ -184,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601380957696</updated>
       <workItem from="1601380958723" duration="13231000" />
-      <workItem from="1601464551891" duration="16116000" />
+      <workItem from="1601464551891" duration="23635000" />
     </task>
     <task id="LOCAL-00001" summary="Add CSS to style the pages was missing from composer update">
       <created>1601388428140</created>
@@ -228,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601552594845</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Call profile details on user's page dynamically">
+      <created>1601553490630</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601553490630</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add Post model and migration files. Connect post and user with a 1:* relationship.">
+      <created>1601559372534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601559372534</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +291,9 @@
     <MESSAGE value="Add 'username' to the registration form and include it in the database, controllers and User class" />
     <MESSAGE value="Add ProfilesController.php which passes the username to the view through web.php&#10;Display username on nav bar" />
     <MESSAGE value="Add Profile model and migration files.&#10;Connect a profile and a user with a 1:1 relationship." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Profile model and migration files.&#10;Connect a profile and a user with a 1:1 relationship." />
+    <MESSAGE value="Call profile details on user's page dynamically" />
+    <MESSAGE value="Add Post model and migration files. Connect post and user with a 1:* relationship." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Post model and migration files. Connect post and user with a 1:* relationship." />
   </component>
   <component name="WindowStateProjectService">
     <state x="398" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601382805359">
@@ -322,9 +345,13 @@
     </state>
     <state x="398" y="165" key="Vcs.Push.Dialog.v2/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601549326401" />
     <state x="398" y="165" key="Vcs.Push.Dialog.v2/74.0.1462.864@74.0.1462.864" timestamp="1601386422583" />
-    <state x="468" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1601459763999">
+    <state x="515" y="31" width="579" height="801" key="find.popup" timestamp="1601560776935">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state x="468" y="181" width="672" height="678" key="search.everywhere.popup/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601459763999" />
+    <state x="515" y="31" width="579" height="801" key="find.popup/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601560776935" />
+    <state x="468" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1601563259498">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="468" y="181" width="672" height="678" key="search.everywhere.popup/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601563259498" />
   </component>
 </project>
