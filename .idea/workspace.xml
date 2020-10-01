@@ -6,12 +6,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6784cd0-62e5-4068-a2be-eecbd685b2a3" name="Default Changelist" comment="Add laragram logo for page and style it">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laragram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laragram.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,6 +145,7 @@
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iBVQld07yZjNy7EZQqhzFOO0mW" />
@@ -166,14 +170,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\resources\views\posts" />
-      <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\svg" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\resources\views\profiles" />
       <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\resources\views\posts" />
       <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\public\svg" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\resources\views\posts" />
+      <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\svg" />
     </key>
   </component>
   <component name="RunManager">
@@ -191,7 +195,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601380957696</updated>
       <workItem from="1601380958723" duration="13231000" />
-      <workItem from="1601464551891" duration="23635000" />
+      <workItem from="1601464551891" duration="24139000" />
+      <workItem from="1601564352091" duration="6892000" />
     </task>
     <task id="LOCAL-00001" summary="Add CSS to style the pages was missing from composer update">
       <created>1601388428140</created>
@@ -249,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601559372534</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add create.blade.php, index.blade.php and PostsController.php">
+      <created>1601563933463</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601563933463</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add new route to add a post through the webpage&#10;Reroute the ProfilesController.php to point to index rather than home&#10;Remove guard from the Post.php model because we are defining the guards in the controller">
+      <created>1601564069225</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601564069225</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +312,10 @@
     <MESSAGE value="Add Profile model and migration files.&#10;Connect a profile and a user with a 1:1 relationship." />
     <MESSAGE value="Call profile details on user's page dynamically" />
     <MESSAGE value="Add Post model and migration files. Connect post and user with a 1:* relationship." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Post model and migration files. Connect post and user with a 1:* relationship." />
+    <MESSAGE value="Add create.blade.php, index.blade.php and PostsController.php" />
+    <MESSAGE value="Add new route to add a post through the webpage&#10;Reroute the ProfilesController.php to point to index rather than home" />
+    <MESSAGE value="Add new route to add a post through the webpage&#10;Reroute the ProfilesController.php to point to index rather than home&#10;Remove guard from the Post.php model because we are defining the guards in the controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new route to add a post through the webpage&#10;Reroute the ProfilesController.php to point to index rather than home&#10;Remove guard from the Post.php model because we are defining the guards in the controller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="398" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601382805359">
@@ -340,18 +362,18 @@
       <screen x="74" y="0" width="1462" height="864" />
     </state>
     <state x="314" y="77" key="SettingsEditor/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601548511041" />
-    <state x="398" y="165" key="Vcs.Push.Dialog.v2" timestamp="1601549326401">
+    <state x="398" y="165" key="Vcs.Push.Dialog.v2" timestamp="1601564078081">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state x="398" y="165" key="Vcs.Push.Dialog.v2/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601549326401" />
+    <state x="398" y="165" key="Vcs.Push.Dialog.v2/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601564078081" />
     <state x="398" y="165" key="Vcs.Push.Dialog.v2/74.0.1462.864@74.0.1462.864" timestamp="1601386422583" />
     <state x="515" y="31" width="579" height="801" key="find.popup" timestamp="1601560776935">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
     <state x="515" y="31" width="579" height="801" key="find.popup/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601560776935" />
-    <state x="468" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1601563259498">
+    <state x="468" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1601588530940">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state x="468" y="181" width="672" height="678" key="search.everywhere.popup/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601563259498" />
+    <state x="468" y="181" width="672" height="678" key="search.everywhere.popup/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601588530940" />
   </component>
 </project>
