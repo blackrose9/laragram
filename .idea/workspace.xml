@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6784cd0-62e5-4068-a2be-eecbd685b2a3" name="Default Changelist" comment="" />
+    <list default="true" id="d6784cd0-62e5-4068-a2be-eecbd685b2a3" name="Default Changelist" comment="Add laragram logo for page and style it">
+      <change afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_01_112057_create_profiles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_01_112057_create_profiles_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -122,9 +145,11 @@
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iBVQld07yZjNy7EZQqhzFOO0mW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -133,7 +158,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/profiles" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -141,7 +166,20 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\resources\views\profiles" />
+      <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\resources\views\posts" />
+      <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\public\svg" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\resources\views\profiles" />
+      <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\resources\views\posts" />
+      <recent name="C:\Users\Sarah\OneDrive\Projects\Learn\Laravel\laragram\svg" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -157,12 +195,160 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601380957696</updated>
-      <workItem from="1601380958723" duration="3410000" />
+      <workItem from="1601380958723" duration="13231000" />
+      <workItem from="1601464551891" duration="24139000" />
+      <workItem from="1601564352091" duration="15819000" />
     </task>
+    <task id="LOCAL-00001" summary="Add CSS to style the pages was missing from composer update">
+      <created>1601388428140</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601388428140</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add laragram logo for page and style it">
+      <created>1601389131043</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601389131043</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Style home.blade.php to look like an Instagram user page">
+      <created>1601548768223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601548768223</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add 'username' to the registration form and include it in the database, controllers and User class">
+      <created>1601549046855</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601549046855</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add ProfilesController.php which passes the username to the view through web.php&#10;Display username on nav bar">
+      <created>1601549155719</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601549155719</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add Profile model and migration files.&#10;Connect a profile and a user with a 1:1 relationship.">
+      <created>1601552594845</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601552594845</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Call profile details on user's page dynamically">
+      <created>1601553490630</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601553490630</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add Post model and migration files. Connect post and user with a 1:* relationship.">
+      <created>1601559372534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601559372534</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add create.blade.php, index.blade.php and PostsController.php">
+      <created>1601563933463</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601563933463</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add new route to add a post through the webpage&#10;Reroute the ProfilesController.php to point to index rather than home&#10;Remove guard from the Post.php model because we are defining the guards in the controller">
+      <created>1601564069225</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601564069225</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add Intervention Image Library to help square our uploaded images">
+      <created>1601590371298</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601590371298</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Modify store function to include squaring of uploaded images.&#10;Add function to show one specific post">
+      <created>1601590690147</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601590690147</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Display every post added by a specific user ordered by time they were posted.">
+      <created>1601590782949</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601590782949</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add show.blade.php view to define how to display a single post on it's own&#10;Added some new routes to web.php defining a few other things">
+      <created>1601590908961</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601590908961</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add CSS to style the pages was missing from composer update" />
+    <MESSAGE value="Add laragram logo for page and style it" />
+    <MESSAGE value="Style home.blade.php to look like an Instagram user page" />
+    <MESSAGE value="Add 'username' to the registration form and include it in the database, controllers and User class" />
+    <MESSAGE value="Add ProfilesController.php which passes the username to the view through web.php&#10;Display username on nav bar" />
+    <MESSAGE value="Add Profile model and migration files.&#10;Connect a profile and a user with a 1:1 relationship." />
+    <MESSAGE value="Call profile details on user's page dynamically" />
+    <MESSAGE value="Add Post model and migration files. Connect post and user with a 1:* relationship." />
+    <MESSAGE value="Add create.blade.php, index.blade.php and PostsController.php" />
+    <MESSAGE value="Add new route to add a post through the webpage&#10;Reroute the ProfilesController.php to point to index rather than home" />
+    <MESSAGE value="Add new route to add a post through the webpage&#10;Reroute the ProfilesController.php to point to index rather than home&#10;Remove guard from the Post.php model because we are defining the guards in the controller" />
+    <MESSAGE value="Add Intervention Image Library to help square our uploaded images" />
+    <MESSAGE value="Modify store function to include squaring of uploaded images.&#10;Add function to show one specific post" />
+    <MESSAGE value="Display every post added by a specific user ordered by time they were posted." />
+    <MESSAGE value="Add show.blade.php view to define how to display a single post on it's own&#10;Added some new routes to web.php defining a few other things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add show.blade.php view to define how to display a single post on it's own&#10;Added some new routes to web.php defining a few other things" />
   </component>
   <component name="WindowStateProjectService">
     <state x="398" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601382805359">
@@ -173,21 +359,58 @@
       <screen x="74" y="0" width="1462" height="864" />
     </state>
     <state x="549" y="234" key="#com.intellij.fileTypes.FileTypeChooser/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601383604511" />
-    <state width="1419" height="224" key="GridCell.Tab.0.bottom" timestamp="1601380996314">
+    <state x="2450" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601473614918">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="2450" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/74.0.1462.864/1920.0.1600.870@1920.0.1600.870" timestamp="1601473614918" />
+    <state x="536" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601627018909">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="1419" height="224" key="GridCell.Tab.0.bottom/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601380996314" />
-    <state width="1419" height="224" key="GridCell.Tab.0.center" timestamp="1601380996313">
+    <state x="536" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601627018909" />
+    <state x="582" y="345" key="ComposerInitDialogKey" timestamp="1601386140418">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="1419" height="224" key="GridCell.Tab.0.center/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601380996313" />
-    <state width="1419" height="224" key="GridCell.Tab.0.left" timestamp="1601380996313">
+    <state x="582" y="345" key="ComposerInitDialogKey/74.0.1462.864@74.0.1462.864" timestamp="1601386140418" />
+    <state x="2500" y="190" key="FileChooserDialogImpl" timestamp="1601473850522">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="2500" y="190" key="FileChooserDialogImpl/74.0.1462.864/1920.0.1600.870@1920.0.1600.870" timestamp="1601473850522" />
+    <state width="1419" height="224" key="GridCell.Tab.0.bottom" timestamp="1601464535999">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="1419" height="224" key="GridCell.Tab.0.left/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601380996313" />
-    <state width="1419" height="224" key="GridCell.Tab.0.right" timestamp="1601380996314">
+    <state width="1419" height="224" key="GridCell.Tab.0.bottom/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601464535999" />
+    <state width="1419" height="224" key="GridCell.Tab.0.center" timestamp="1601464535999">
       <screen x="74" y="0" width="1462" height="864" />
     </state>
-    <state width="1419" height="224" key="GridCell.Tab.0.right/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601380996314" />
+    <state width="1419" height="224" key="GridCell.Tab.0.center/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601464535999" />
+    <state width="1419" height="224" key="GridCell.Tab.0.left" timestamp="1601464535999">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="224" key="GridCell.Tab.0.left/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601464535999" />
+    <state width="1419" height="224" key="GridCell.Tab.0.right" timestamp="1601464535999">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="1419" height="224" key="GridCell.Tab.0.right/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601464535999" />
+    <state x="2479" y="137" key="RollbackChangesDialog" timestamp="1601472603521">
+      <screen x="1920" y="0" width="1600" height="870" />
+    </state>
+    <state x="2479" y="137" key="RollbackChangesDialog/74.0.1462.864/1920.0.1600.870@1920.0.1600.870" timestamp="1601472603521" />
+    <state x="314" y="77" key="SettingsEditor" timestamp="1601548511041">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="314" y="77" key="SettingsEditor/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601548511041" />
+    <state x="398" y="165" key="Vcs.Push.Dialog.v2" timestamp="1601590921049">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="398" y="165" key="Vcs.Push.Dialog.v2/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601590921049" />
+    <state x="398" y="165" key="Vcs.Push.Dialog.v2/74.0.1462.864@74.0.1462.864" timestamp="1601386422583" />
+    <state x="515" y="31" width="579" height="801" key="find.popup" timestamp="1601560776935">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="515" y="31" width="579" height="801" key="find.popup/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601560776935" />
+    <state x="468" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1601629855509">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="468" y="181" width="672" height="678" key="search.everywhere.popup/74.0.1462.864/1920.0.1600.870@74.0.1462.864" timestamp="1601629855509" />
   </component>
 </project>
