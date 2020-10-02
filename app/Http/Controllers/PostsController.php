@@ -26,7 +26,7 @@ class PostsController extends Controller
         $image = Image::make(public_path("storage/{$imagePath}"))->fit(1200,1200);
         $image->save();
 
-        //gets the userid and gives passes it in automatically
+        //gets the userid and passes it in automatically
         auth()->user()->posts()->create([
             'caption' => $data['caption'],
             'image' => $imagePath,
@@ -34,7 +34,7 @@ class PostsController extends Controller
 
         return redirect('/profile/'.auth()->user()->id);
     }
-    public function show(\App\Models\Post $post){
+    public function show(Post $post){
         return view('posts/show', compact('post'));
     }
 }
